@@ -24,7 +24,7 @@
 using namespace std;
 using namespace boost;
 
-static const int MAX_OUTBOUND_CONNECTIONS = 16;
+static const int MAX_OUTBOUND_CONNECTIONS = 2000;
 
 void ThreadMessageHandler2(void* parg);
 void ThreadSocketHandler2(void* parg);
@@ -1409,7 +1409,7 @@ void ThreadOpenAddedConnections2(void* parg)
                 MilliSleep(500);
             }
             vnThreadsRunning[THREAD_ADDEDCONNECTIONS]--;
-            MilliSleep(120000); // Retry every 2 minutes
+            MilliSleep(5000); // Retry every 5 seconds- hub mode
             vnThreadsRunning[THREAD_ADDEDCONNECTIONS]++;
         }
         return;
