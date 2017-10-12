@@ -4,6 +4,6 @@ A specialized client source to assist in improving connectivity on mobile wallet
 
 Ports:
 
-connection:	11370
+Connection:	11370
 
 RPC:			11371
