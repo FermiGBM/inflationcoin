@@ -1,6 +1,6 @@
 InflationCoin Hub-mode v.1
 
-A specialized client source to assist in improving connectivity on mobile wallets. Using experimental settings from previous hub mode patches to connect more aggressively to peers and operate with increased connection capacity. WIP
+A specialized client source to assist in improving connectivity on mobile wallets. Using experimental settings from previous hub mode patches to increase thread scanning rates and operate with expanded connection capacity. WIP
 
 Ports:
 
