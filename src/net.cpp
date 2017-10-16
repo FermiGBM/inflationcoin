@@ -1087,9 +1087,14 @@ void MapPort()
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
-static const char *strDNSSeed[][2] = {
+static const char *strDNSSeed[][7] = {
    { "154.16.7.184", "154.16.7.184" },
    { "149.56.154.65", "149.56.154.65" }
+     { "195.74.52.227", "195.74.52.227" },
+   { "164.132.102.223", "164.132.102.223" }
+     { "213.32.90.191", "213.32.90.191" },
+   { "213.32.90.199", "213.32.90.199" }
+     { "novaexchange.com", "novaexchange.com/addnodes/IFLT" },
 };
 
 void ThreadDNSAddressSeed(void* parg)
